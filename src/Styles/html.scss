@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+    align-items: center;
+    width: 100vw;
+    height: 2000px;
+    overflow-y: scroll;
+}
+
+html{
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    display:none;
+}

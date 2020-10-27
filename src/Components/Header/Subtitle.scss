@@ -1,0 +1,22 @@
+.text{
+    display: inline-block;
+    font-size: 20px;
+    width: 10px;
+    color:whitesmoke;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.text-span{
+    text-align: center;
+}
+
+.text-div{
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    top: 70vh;
+    left:0;
+    right:0;
+    z-index: 1;
+}
