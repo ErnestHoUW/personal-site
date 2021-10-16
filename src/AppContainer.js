@@ -5,10 +5,8 @@ import App from './App';
 class AppContainer extends Component{
     render() {
         return (
-            <ParallaxProvider
-            
-            >
-                <App />
+            <ParallaxProvider>
+                    <App />
             </ParallaxProvider>
         );
     }

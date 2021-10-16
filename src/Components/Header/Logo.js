@@ -1,8 +1,8 @@
 import React from 'react';
-import {ReactComponent as LogoE} from '../../Images/LogoE.svg';
-import {ReactComponent as LogoH} from '../../Images/LogoH.svg';
+import {ReactComponent as LogoE} from './Images/LogoE.svg';
+import {ReactComponent as LogoH} from './Images/LogoH.svg';
 import { Parallax } from 'react-scroll-parallax'
-import './Logo.scss'
+import './Styles/Logo.scss'
 
 function Logo() {
     return (

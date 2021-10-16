@@ -1,16 +1,18 @@
 import React from 'react';
 import Subtitle from './Subtitle';
 import Logo from './Logo'
+import Caret from '../Caret/Caret'
+import './Styles/Header.scss'
 
 function Header() {
+
     return (
-        <div>
-            {/*the background for the header is just a styled section*/}
-            <section style={{backgroundColor: "#231F20", width: "100vw", height: "100vh"}}>
+        <section className="header">
             <Logo />
             <Subtitle />
-            </section>
-        </div>
+            <Caret
+            />
+        </section>
     );
 }
 

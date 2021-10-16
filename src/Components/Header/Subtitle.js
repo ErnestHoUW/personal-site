@@ -1,6 +1,6 @@
 import React from 'react';
 import { Parallax } from 'react-scroll-parallax'
-import './Subtitle.scss'
+import './Styles/Subtitle.scss'
 
 function Subtitle() {
     const text = 'ERNEST HO'.split('');

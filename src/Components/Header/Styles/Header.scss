@@ -1,0 +1,25 @@
+section.header{
+    background-color: "#231F20";
+    height: 100vh;
+    width: 100vw;
+}
+
+.caret{
+    position: absolute;
+    top: 100vh;
+    left: 0;
+    right: 0;
+    margin: -100px auto;
+    width: 25px;
+    height: 14.06px;
+    .cls-1{
+        transition: 200ms ease;
+        fill:rgb(70, 70, 70);
+    }
+}
+
+.caret:hover{
+    .cls-1{
+        fill:whitesmoke; 
+      }
+}
