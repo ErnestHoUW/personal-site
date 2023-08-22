@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+
+:root {
+  --nicegray:  #231f20;
+  --white: #ffffff;
+}
+
+body::-webkit-scrollbar{
+    display: none;
+}
+
+html, body {
+  margin: 0 0;
+  max-width: 100%;
+  overflow-x: hidden;
+}
